@@ -1,0 +1,27 @@
+#write a program that print multiples of 3, 4 and 5 from 0 to 100
+#we Import the random module
+import random
+#declare the min and and max numbers 
+min = 1
+max = 100
+
+#let decare a variable to keep the loop running
+check_now = "yes"
+#Starting the while loop
+while check_now == "yes":
+
+    print("checking")
+    #Declare the possible answers using the random module
+    possible_answers = (random.randint(min, max))
+    print("your number is..:", possible_answers)
+
+    #create an if statement to check for conditions)
+    if possible_answers % 3 == 0:
+        print("Fizz")
+    elif possible_answers % 5 == 0:
+        print("Buzz")
+    elif possible_answers % 3 and possible_answers % 5 == 0:
+        print("FizzBuzz")
+
+        #setting the check_now variable to determine if we need to continue the checking
+        check_now = input("check_now?")
