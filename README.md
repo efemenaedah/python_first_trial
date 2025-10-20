@@ -1,2 +1,2 @@
-# python_first_trial
+# python_Project
 creating my first python project
