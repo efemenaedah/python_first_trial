@@ -23,7 +23,7 @@ while open_cookie == "yes":
     random_fortune = (random.choice(fortune))
     print(random_fortune,)
     #setting a variable to determine if we need to keep breaking our cookie
-    open_cookie = input("open_cookie?")
+    open_cookie = input("Would you like to open another cookie ?")
 
 
 
